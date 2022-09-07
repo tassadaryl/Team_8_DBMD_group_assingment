@@ -2,7 +2,7 @@
 
 # Team member
 Sarthak Chudgar \
-Yasminsadat Mokaberi \ 
+Yasminsadat Mokaberi \
 Qing Wen \
-Lin Ye \ 
+Lin Ye \
 Lin Zhang \
