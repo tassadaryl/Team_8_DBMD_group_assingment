@@ -5,4 +5,4 @@ Sarthak Chudgar \
 Yasminsadat Mokaberi \
 Qing Wen \
 Lin Ye \
-Lin Zhang \
+Lin Zhang
