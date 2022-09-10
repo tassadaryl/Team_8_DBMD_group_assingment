@@ -15,3 +15,10 @@ def OLS_model(X, y):
     est = sm.OLS(y, X)
     est2 = est.fit()
     print(est2.summary())
+
+
+def GLM_model(X, y):
+    X = sm.add_constant(X)
+    est = sm.GLM(y, X, family=sm.families.Binomial())
+    est2 = est.fit()
+    print(est2.summary())
