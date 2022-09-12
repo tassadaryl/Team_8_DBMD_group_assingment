@@ -22,3 +22,8 @@ def fill_unknown(dataframe, cols):
         name_to_sub = dataframe[col].value_counts()[:1].index.tolist()[0] # get the most frequent one
         df_new.loc[:, col].replace({"unknown": name_to_sub}, inplace=True)
     return df_new
+
+
+def get_avg_prob(clf, df):
+    probs = clf.predict_proba(df)
+    return probs[:, 1].mean()
